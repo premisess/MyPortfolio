@@ -64,3 +64,34 @@ footer {
   padding: 1rem;
   border-top: 2px solid #444;
 }
+
+.iframe-scroll {
+  background-color: #111;
+  padding: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  border: 2px solid #39ff14;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #39ff14;
+  color: #39ff14;
+  font-family: 'Courier New', monospace;
+}
+
+.iframe-scroll h2 {
+  color: #39ff14;
+  margin-bottom: 0.5rem;
+}
+
+.iframe-scroll p {
+  color: #d4d4d4;
+  margin-bottom: 1rem;
+}
+
+.iframe-scroll iframe {
+  width: 100%;
+  max-width: 560px;
+  height: 315px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 0 12px #39ff14;
+}
